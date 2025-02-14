@@ -7,7 +7,7 @@ base_url = "https://api.openweathermap.org/data/2.5/weather?"
 city = input("Enter a city to get weather details : ")
 print("")
 
-api_key = "a49de69b810181cc6659a996563a51dc"
+api_key = "#Replace your api key"
 
 url= base_url + "q=" + city + "&appid=" + api_key
 response = requests.get(url)
